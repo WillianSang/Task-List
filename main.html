@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Lista de Tareas </title>
+      <link rel="stylesheet" href="style.css">
+     
+</head>
+
+<body>
+      <div class="container">
+
+            <!-- Titulo y formulario de la TaskList -->
+            <h1 class="title"> TO - DO </h1>
+            <div class="search">
+                  <form> 
+                        <input type=" text"  placeholder="    Agregue nueva task">
+                        <button class="buton"> Add task </button>
+                  </form>
+            </div>
+
+            <!--Lista de Tareas de las TaskList-->
+            <div class="container-list">
+                  <ul id="listTask"></ul>
+            </div>
+
+            <!--Clase vacia cuando no hay tareas-->
+            <div class="vacio">
+                  <img src="./Icons/sin task.png" alt="sin task">
+                  <p> No tienes Tasks... tomate un Descanzo! </p>
+            </div>
+
+            <footer class="created"> 
+                  <p> By: Willian Sang.</p> 
+                  <a href="#"> <img src="Icons/github.svg"> </a>
+                  
+            </footer>
+
+      </div>
+
+      
+      
+      <script src="app.js"></script>
+</body>
+
+
+</html>
